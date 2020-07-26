@@ -1,0 +1,2 @@
+1. Copy the content of reverse-proxy.conf into apache2 httpd.conf file.
+2. otherwise, copy the file under conf folder and include the file in httpd.conf Include conf/reverse-proxy.conf
