@@ -1,0 +1,2 @@
+Copy the content of lb_with_http.conf into apache2 httpd.conf file.
+otherwise, copy the file under conf folder and include the file in httpd.conf Include conf/lb_with_http.conf
