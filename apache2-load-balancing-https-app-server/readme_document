@@ -1,0 +1,5 @@
+Copy the content of enable-ssl.conf into httpd.conf.
+Copy the content of lb-with_https.conf into httpd.conf.
+Otherwise, include both the files into httpd.conf by adding the following lines.
+    Include conf/ssl.conf
+    Include conf/lb_with_https.conf
