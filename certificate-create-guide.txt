@@ -1,0 +1,8 @@
+Download folowing files from github repo.
+    root-certificate-gen.sh
+    create_domain_cert.sh
+    version3.txt
+Run root-certificate-gen.sh to create the root authorities certificate
+Install the created ownRootCACert.pem file.
+Run create_domain_cert.sh to create the domain cert, you will be promted to provide the domain name and validity of the newly cert.
+Done.
